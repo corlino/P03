@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>P01 - Flower Hour</title>
+
+   <link rel="stylesheet" href="css/main.css">
+  </head>
+
+  <body>
+    <header>
+    <section id = "title_page">
+      <h1>Flower Hour</h1>
+
+      <p>Providing the community with professional floral services</p>
+      
+      </section>
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="about_us">
+      <h2>About Us</h2>
+
+
+      <section class="element">
+        <p>We are committed to offering only the finest floral arrangements and gifts, backed by service that is friendly and prompt. Because all of our customers are important, our professional staff is dedicated to making your experience a pleasant one. That is why we always go the extra mile to make sure your floral needs are satisfied.</p>
+        
+        
+       
+        <h5><a href="https://en.wikipedia.org/wiki/Flower">Flower Facts</a></h5>
+        
+      </section>
+
+
+      <!-- Default Button styling section -->
+      <section class="element">
+
+        <h3>Navigation Links</h3>
+        
+              <nav>        
+        <a href="#text_elements">Text Elements</a>
+        <a href="#combined_elements">Combined Elements</a>
+        <a href="#citations">Citations</a>
+      </nav>
+
+        <h4>CSS selector:</h4>
+        <p>.button-nav</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a class="button-nav" href="#">Default Button</a>
+
+      </section>
+
+
+      <section class="element">
+        <h3>Book an Appointment Today!</h3>
+      </section>
+      
+<form>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name"><br><br>
+  <label for="phone">Phone:</label>
+  <input type="text" id="phone" name="phone"><br><br>
+  <button type="reset" value="Submit">Submit</button>
+  <button type="reset" value="Reset">Reset</button>
+</form>
+
+<!-- code help retrieved from: https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button_type -->
+
+
+
+      <section class="element">
+        <h3>Text Input Field with Label</h3>
+      </section>
+
+<form> <label for="favorite-flower">Favourite Flower</label><br> <input name="favorite-flower" id="favorite-flower"> 
+</form>
+
+<!-- coding help retrieved from: https://html.com/tags/label/ -->
+&nbsp;
+
+      <section class="element">
+        <h3>Radio Button with Label</h3>
+      </section>
+
+<p>Select Your Location:</p>
+
+<div>
+  <input type="radio" id="Surrey" name="city" value="Surrey"
+         checked>
+  <label for="Surrey">Surrey</label>
+</div>
+
+<div>
+  <input type="radio" id="Delta" name="city" value="Delta">
+  <label for="Delta">Delta</label>
+</div>
+
+<div>
+  <input type="radio" id="Richmond" name="city" value="Richmond">
+  <label for="Richmond">Richmond</label>
+</div>
+
+<div>
+  <input type="radio" id="Burnaby" name="city" value="Burnaby">
+  <label for="Burnaby">Burnaby</label>
+</div>
+
+<!-- coding help retrieved from: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio -->
+
+
+      <section class="element">
+        <h3>Image as a Link</h3>
+      </section>
+      
+      			<figure>
+
+<a href="https://en.wikipedia.org/wiki/Poinsettia"><img src="img/poinsettia.jpg" alt="Red Poinsettia" style="width:809px;height:809px;"></a>
+
+				<figcaption>The red poinsettia is a holiday favorite that makes a great Christmas gift.</figcaption>
+
+			</figure>
+
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <h2>Text Elements</h2>
+
+      <section class="element">
+        <h2>Flower Hour Heading 1</h2>
+        <h1>Flower Hour Heading 1</h1>
+        <h4>Flower Hour Heading 1</h4>
+        <h5>Flower Hour Heading 1</h5>
+      </section>
+      
+      
+      
+
+      <section class="element">
+        <p>This is a paragraph letting you know that due to an increase in the cost of roses, some product prices may be impacted during the Valentine’s delivery period.</p>
+      </section>
+
+      <section class="element">
+        <h3>Numbered Lists</h3>
+      </section>
+      
+      <h2>Flowers</h2>
+
+<ol>
+  <li>Orchid</li>
+  <li>Poinsettia</li>
+  <li>Tulip</li>
+  <li>Rose</li>
+  <li>Iris</li>
+  <li>Poppy</li>
+</ol> 
+
+    <!-- Coding help from: https://www.w3schools.com/html/html_lists.asp -->
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+
+      <section class="element">
+        <h3>Main Navigation</h3>
+      </section>
+      
+      <nav>        
+        <a href="homepage.html">Home</a>
+        <a href="shoppage.html">Shop</a>
+        <a href="servicespage.html">Services</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="checkout.html">Checkout</a>
+      </nav>
+
+      <section class="element">
+        <h3>Product/Service Listing</h3>
+      </section>
+      
+ <ul>
+  <li>Orchid Bouquet</li>
+  <li>Rose Bouquet</li>
+  <li>Iris Bouquet</li>
+  <li>Birthday Basket</li>
+  <li>Cactus Basket</li>
+  <li>Mixed Basket</li>
+  <li><a href="#red_poinsettia_basket">Red Poinsettia Basket</a></li>
+</ul>
+<section id="red_poinsettia_basket">
+        <h3>Red Poinsettia Basket</h3>
+        
+        <img src="img/poinsettia.jpg" alt="Red Poinsettia Basket">
+        
+   <h3>$39.95</h3>
+   <p>
+   Indigenous to Mexico and Central America, the poinsettia was first described by Europeans in 1834. It is particularly well known for its red and green foliage and is widely used in Christmas floral displays. It derives its common English name from Joel Roberts Poinsett, the first United States Minister to Mexico, who is credited with introducing the plant to the US in the 1820s. The Red Poinsettia will make a great gift for both friends and family.
+   </p>
+      </section>
+      
+
+ 
+
+      <section class="element">
+        <h3>Payment Form</h3>
+      </section>
+      
+
+<p>Select Shipping Method</p>
+
+<div>
+  <input type="radio" id="3day" name="delv" value="3day"
+         checked>
+  <label for="3day">3-Day Delivery (Free)</label>
+</div>
+
+<div>
+  <input type="radio" id="sameday" name="delv" value="sameday">
+  <label for="sameday">Same Day Delivery (+$9.95)</label>
+
+</div>
+
+
+
+
+
+<!-- CREDIT CARD FORM STARTS HERE -->
+
+<h3 class="panel-title display-td" >Checkout Details</h3>
+
+<h4>
+Amount Due: $74.79 + Shipping
+</h4>
+<form role="form" id="payment-form">
+
+<label for="cardNumber">CARD NUMBER</label>
+<input 
+type="tel"
+name="cardNumber"
+placeholder="Card Number"
+autocomplete="cc-number"
+required autofocus 
+/>
+
+<label for="cardExpiry"><span class="hidden-xs">EXPIRATION</span><span class="visible-xs-inline"></span> DATE</label>
+<input 
+type="tel" 
+name="cardExpiry"
+placeholder="MM / YY"
+autocomplete="cc-exp"
+required 
+/>
+
+
+<label for="cardCVC">SECURITY CODE</label>
+<input 
+type="tel" 
+class="form-control"
+name="cardCVC"
+placeholder="CVC"
+autocomplete="cc-csc"
+required
+/>
+<button class="btn btn-success btn-lg btn-block" type="submit">Submit Payment</button>
+<p class="payment-errors"></p>
+</form>
+<!-- CREDIT CARD FORM ENDS HERE -->
+
+
+<!-- End of payment form -->
+
+<!-- Coding inspired already coded payment form from: https://codepen.io/llgruff/pen/JdyJWR  -->
+
+
+
+      <section class="element">
+        <h3>Checkout Cart</h3>
+      </section>
+      
+ <div class="col-25">
+    <div class="container">
+      <h4>Cart: 2 Items <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b></b></span></h4>
+      <p>1x Orchid Bouquet: <span class="price">$29.95</span></p>
+<img src="img/orchidsale.jpg" alt="Orchid">
+      <p>1x Red Poinsettia: <span class="price">$39.95</span></p>
+      <img src="img/poinsettiasale.jpg" alt="Poinsettia">
+      <p>Tax(7% PST): <span class="price">$4.89</span></p>
+      <hr>
+      <p>Total: <span class="price" style="color:black"><b>$74.79 + Shipping</b></span></p>
+    </div>
+  </div>
+      
+      <!-- Coding help from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_checkout_form -->
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+
+</header>
+
+  </body>
+</html>
