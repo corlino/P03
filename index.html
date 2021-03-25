@@ -7,24 +7,19 @@
 
       <link rel="stylesheet" href="https://use.typekit.net/mjv1aet.css">
       <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/grids.css">
+
       
   </head>
 
   <body>
     <header>
-    <section id = "title_page">
-      <h1>Colin O'Neill</h1>
-
-      <p>Providing the community with professional floral services</p>
-      
-      </section>
+      <h1>Colin O'Neill</h1>      
 
 
     <!-- INTERACTIVE ELEMENTS SECTION // -->
-    <section id="about_us">
+    <section id="about_me">
       <h2>Bio</h2>
-
-
       <section class="element">
         <p>I am a student studying design at the School of Interactive Arts and Technology at Simon Fraser University. In my two years of studies, I have developed skills relating to user interface and user interactivity from various courses within my program. I am also experienced in videography, animation and marketing.</p>
         
@@ -40,11 +35,25 @@
 
         <h3>Navigation Links</h3>
         
-              <nav>        
-        <a href="#text_elements">Text Elements</a>
-        <a href="#combined_elements">Combined Elements</a>
-        <a href="#citations">Citations</a>
-      </nav>
+        <nav class="nav-main grid-row">
+
+      <div class="grid-col-1of4">
+        <a href="#about_me" class="nav-main-item">About Me</a>
+      </div>
+
+      <div class="grid-col-1of4">
+        <a href="#text_elements" class="nav-main-item">Text Elements</a>
+      </div>
+
+      <div class="grid-col-1of4">
+        <a href="#combined_elements" class="nav-main-item">Combined Elements</a>
+      </div>
+
+      <div class="grid-col-1of4">
+        <a href="#projects" class="nav-main-item">Projects</a>
+      </div>
+    
+    </nav>
 
         <h4>CSS selector:</h4>
         <p>.button-nav</p>

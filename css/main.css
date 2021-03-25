@@ -8,7 +8,7 @@
 
 		In this case, fixed positioning 'fixes' the element to the page while you scroll.
 	*/
-	position: fixed;
+	position: absolute;
 
 	/*
 		Only once we set the positioning of an element to a value other then 'static' can we use the top, right, bottom, and left properties. These properties define the distance of the element along those edges depending on what kind of positioning is set.
@@ -149,6 +149,18 @@ code, samp {
 	text-decoration: none;
 	transition: background-color 0.5s ease-out;
     
+}
+
+.bg1 {
+	background-color: purple;
+}
+
+.bg2 {
+	background-color: green;
+}
+
+.bg3 {
+	background-color: blue;
 }
 
 
