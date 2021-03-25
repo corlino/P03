@@ -69,7 +69,11 @@
 	Please leave the content below alone for this week's tutorial
 */
 body {
-
+font-family: sans-serif;
+	margin: 1rem;
+	font-size: 1rem;
+    
+    background: ghostwhite;
 }
 
 h1 {
@@ -79,14 +83,27 @@ h1 {
 }
 
 h2 {
+	font-family: balloon-d, sans-serif;
+	margin: 1rem;
 	font-size: 2.25rem;
-	margin-bottom: 0;
-	width: 100%;
 }
 
 h3 {
-	font-size: 1.6rem;
-	margin-bottom: 0;
+	font-family: sans-serif;
+	margin: 1rem;
+	font-size: 1.50rem;
+}
+
+h4 {
+	font-family: sans-serif;
+	margin: 1rem;
+	font-size: 1.25rem;
+}
+
+p {
+    font-family: sans-serif;
+    margin: 1rem;
+    font-size: 1rem;
 }
 
 p, ol, ul {
@@ -134,17 +151,6 @@ code, samp {
     
 }
 
-.bg1 {
-	background-color: purple;
-}
-
-.bg2 {
-	background-color: green;
-}
-
-.bg3 {
-	background-color: blue;
-}
 
 .nav-main-item:active, .nav-main-item:hover, .nav-main-item:focus {
 	color: white;
