@@ -69,14 +69,13 @@
 	Please leave the content below alone for this week's tutorial
 */
 body {
-	font-family: "Quan", Verdana, sans-serif;
-	margin: 1rem;
-	font-size: 1.25rem;
+
 }
 
 h1 {
-	font-size: 3rem;
-	margin-bottom: 0;
+    font-family: balloon-urw-drop-shadow, sans-serif;
+	margin: 1rem;
+	font-size: 5.25rem;
 }
 
 h2 {
