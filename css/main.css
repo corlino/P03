@@ -24,6 +24,29 @@ h3 {
 
 
 
+.btn-outline-light {
+  color: #fff;
+  border-color: #fff;
+}
+.btn-outline-light:hover {
+  color: #000;
+  background-color: #ff6161;
+  border-color: #ff6161;
+}
+
+
+.form-control:focus{
+  color: #fff;
+  background-color: #ff6161;
+  border-color: #ff6161;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(255, 97, 97, 0.25);
+}
+
+.form-control:hover{
+  background-color: #ff6161;
+}
+
 
 img {
 	height: auto; 
