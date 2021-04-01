@@ -25,95 +25,7 @@
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
         }
-      }
-          
-          
-          
-#myImg {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-#myImg:hover {opacity: 0.7;}
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-}
-
-/* Modal Content (image) */
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-}
-
-/* Caption of Modal Image */
-#caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
-}
-
-/* Add Animation */
-.modal-content, #caption {  
-  -webkit-animation-name: zoom;
-  -webkit-animation-duration: 0.6s;
-  animation-name: zoom;
-  animation-duration: 0.6s;
-}
-
-@-webkit-keyframes zoom {
-  from {-webkit-transform:scale(0)} 
-  to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom {
-  from {transform:scale(0)} 
-  to {transform:scale(1)}
-}
-
-/* The Close Button */
-.close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-  .modal-content {
-    width: 100%;
-  }
-}          
+      }        
           
           
     </style>
@@ -167,65 +79,57 @@
   </nav> 
       
 
-    
+           <hr class="featurette-divider">
+
       
     <div class = "container-md">
-       <hr class="featurette-divider">
 
     <div class="row featurette">
-      <div class="col-md-7">
+      <div class="col-md-5">
         <h2 class="featurette-heading">Kinetic Typography Video</h2>
         <p class="lead">This project is a kinetic typography project from a Digital Design course I took in Spring of 2019. This project represents my creativity and skills using video and graphic editing softwares.</p>
+          <br>
+          <p class = "lead">
+          Upon receiving the project details, I began my process of sketching the storyboard as seen below. When working on the project I storyboarded the whole thing in order to avoid any idea blocks that I might have if I had just jumped right into making the video. To make the most of my time, I chose not to skip this step. 
+          </p>
+      </div>
+      <div class="col-md-7">
+
+          
+          <a href="#" class="pull-right"><img src="img/sketches2.jpg" width="100%" height="100%"></a>
+          
+
+      </div>
+    </div>
+        
+    <hr class="featurette-divider">
+
+        <div class="row featurette">
+      <div class="col-md-7">
+
+        <p class="lead">After hearing the project brief, my initial thoughts for a dialogue to use was from a film that I adimired and found really interesting. The speech is from Citizen Kane, a black and white film released in 1941 about the investigation of the last words of a scandalous tycoon.</p>
       </div>
       <div class="col-md-5">
-          <a href="#" class="pull-left"><img src="img/sketches1.jpg" width="49%" height="50%" alt="logo"></a>
-          <a href="#" class="pull-right"><img id = "myImg" src="img/sketches2.jpg" width="49%" height="50%"></a>
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img01">
-  <div id="caption"></div>
-</div>
-
-<script>
-// Get the modal
-var modal = document.getElementById("myModal");
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("myImg");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-  modal.style.display = "none";
-}
-</script>
           
+         <img src="img/ck.jfif" width="100%" height="100%">
           
-          
+
       </div>
     </div>
 
         
     <hr class="featurette-divider">
-
+        
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+        
+        <p class="lead">After developing my sketches above, I had a good idea of how the video would flow with the 'Xanadu' description speech from the film. I then began creating any graphic and textual elements in Illustrator that could not be made using After Effects.</p>
       </div>
       <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        
+          <a href="#" class="pull-right"><img src="img/ex3.JPG" width="100%" height="100%"></a>
+          
 
       </div>
     </div>
@@ -234,12 +138,13 @@ span.onclick = function() {
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+       
+        <p class="lead"> A lot of the graphic elements were created using Adobe Illustrator and Adobe Photoshop. These elements were then imported into Adobe After Effects to add the appropriate motion required to match my sketches</p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
+   
+          <a href="#" class="pull-right"><img src="img/ex1.JPG" width="100%" height="100%"></a>
+          
       </div>
     </div>
 
@@ -247,24 +152,27 @@ span.onclick = function() {
         
         <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+       
+        <p class="lead">Through doing the project I was in the mindset that this was going to be one of the greatest projects I had made in the two semesters I had been at school.​ During the process, I was thinking about how the project was based around a movie that I really admired and how I would need to work harder to achieve an outcome that would represent my appreciation for Citizen Kane. When I found out that I had not done as well as I was expecting, I was still satisfied with the skills I gained from doing the project and the quality of the end result. This project is one of the most important to me since It significantly developed my interest in videography and increased my skills in video editing with graphics and typography.</p>
       </div>
       <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
+      
+          <iframe width="100%" height="100%" src= "http://www.youtube.com/embed/hLH5wja4tTw">
+          
+          </iframe>
+          
       </div>
     </div>
 
         
 
     <!-- /END THE FEATURETTES -->
-    <hr class="featurette-divider">
 
   </div><!-- /.container -->
 
 
- 
+     <hr class="featurette-divider">
+
       
   <!-- FOOTER -->
   <footer class="container">
