@@ -7,6 +7,7 @@ body {
 
 h1 {
     font-family: balloon-urw-drop-shadow, sans-serif;
+                font-size: 5rem;
         color: rgb(255,97,97)
 
 }
@@ -24,12 +25,13 @@ h3 {
 
 
 
+
 .btn-outline-light {
   color: #fff;
   border-color: #fff;
 }
 .btn-outline-light:hover {
-  color: #000;
+  color: #fff;
   background-color: #ff6161;
   border-color: #ff6161;
 }
@@ -51,17 +53,16 @@ h3 {
 img {
 	height: auto; 
 	max-width: 100%;
-	border: 1px solid black; 
 }
 
 
 a {
-	color: rgb(255,191,191);
+	color: white;
 	transition: color 0.5s;
 }
 
 a:active, a:hover, a:focus {
-	color: white; 
+	color: #ff6161; 
 	text-decoration: none;
 }
 
@@ -116,6 +117,8 @@ code, samp {
 .navbar-dark .navbar-text a:focus {
   color: #ff6161;
 }
+
+
 
 
 .dropdown-item {
