@@ -34,6 +34,12 @@ margin-right: 0px!important;
   will-change: transform;
   z-index: -1000;
 }
+.video-background{
+    position: relative
+    width: 100%;
+    min-height: 100vh;
+}
+
 video { 
   position: fixed;
   top: 50%;
