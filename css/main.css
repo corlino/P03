@@ -42,8 +42,7 @@ margin-right: 0px!important;
 
 .element {
   padding-bottom: 2rem;
-  border-top-width: 0.15rem;
-  border-top-style: solid;
+  border-top-width: 0rem;
   border-top-color: white;
 }
 
