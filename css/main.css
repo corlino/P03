@@ -55,6 +55,9 @@ margin-right: 0px!important;
   background-color: #fff0db;
 }
 
+section {
+  margin-top: 20px;
+}
 
 /* Remove extra left and right margins, due to padding */
 .row {margin: 0 -5px;}
