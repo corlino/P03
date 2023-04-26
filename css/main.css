@@ -27,7 +27,7 @@ margin-right: 0px!important;
     min-height: 100vh;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 200px) {
   .column {
     width: 100%;
     justify-content: center;
